@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL = 'http://localhost:3000';
+const URL = 'nyx-backend.vercel.app';
 
 export const addUser = async (data) => {
     try {
