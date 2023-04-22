@@ -31,11 +31,11 @@ const EditUser = () => {
 
     useEffect(()=>{
       loadUserDetails();
+      // eslint-disable-next-line
     }, []);
 
     const loadUserDetails = async () => {
         let response = await getUser(id);
-        // console.log(response.data.data);
         setUser(response.data.data);
     };
 
