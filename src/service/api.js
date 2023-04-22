@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL = 'https://nyx-backend-go306i23h-jai84322.vercel.app/';
+const URL = 'https://nyxcrud-backend.onrender.com';
 
 export const addUser = async (data) => {
     try {
