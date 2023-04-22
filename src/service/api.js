@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL = 'nyx-backend.vercel.app';
+const URL = 'https://nyx-backend-go306i23h-jai84322.vercel.app/';
 
 export const addUser = async (data) => {
     try {
